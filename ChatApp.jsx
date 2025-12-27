@@ -7,29 +7,29 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { FaChevronCircleRight } from "react-icons/fa";
 
 const ChatApp = () => {
-  const name = "Samuel Green";
+  const Name = "Samuel Green";
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center  p-4 md:p-6 lg:p-8 min-w-screen">
       
-      {/* Main Container with both elements side by side */}
+  
       <div className="relative flex flex-col lg:flex-row items-center lg:items-start w-full max-w-6xl">
         
-        {/* Fuchsia Background Div - Now positioned relative */}
+  
         <div className="relative lg:absolute w-full lg:w-auto">
           <div className="bg-fuchsia-600 w-full lg:w-[500px] xl:w-[600px] h-[1100px] sm:h-[1100px] lg:h-[800px] xl:h-[950px] 
                         rounded-b-full lg:rounded-b-full lg:rounded-bl-none
                         -mt-20 lg:-mt-40 lg:-ml-20 xl:-ml-32
                         flex items-center justify-center lg:justify-start">
             
-            {/* Chat Container - Positioned absolutely over the fuchsia div */}
+       
             <div className="absolute top-20 lg:top-auto lg:relative 
                           w-full max-w-sm sm:max-w-md lg:max-w-sm xl:max-w-md 
                           h-auto lg:h-[700px] xl:h-[800px] 
                           mx-auto lg:mx-0
                           lg:ml-12 xl:ml-24 lg:mt-20 xl:mt-32">
               
-              {/* Chat Container Content */}
+            
               <div className="bg-slate-300 w-full 
                             rounded-3xl lg:rounded-4xl shadow-lg 
                             p-4 sm:p-5 lg:p-6">
@@ -38,7 +38,7 @@ const ChatApp = () => {
                 <div className="bg-gradient-to-r from-blue-500 via-fuchsia-600 
                               h-16 sm:h-20 rounded-t-2xl lg:rounded-t-3xl
                               px-4 sm:px-6 flex items-center gap-3
-                              text-white font-mono">
+                              text-white font-mono parent">
                   
                   <img
                     src={favIcon}
@@ -53,8 +53,8 @@ const ChatApp = () => {
                   />
 
                   <div className="flex-1 leading-tight">
-                    <p className="text-sm sm:text-base font-semibold">{name}</p>
-                    <p className="text-xs sm:text-sm opacity-80">
+                    <p className="text-sm sm:text-base font-semibold mt-4 ms-7">{Name}</p>
+                    <p className="text-xs sm:text-sm opacity-80 ms-7">
                       Available to walk
                     </p>
                   </div>
