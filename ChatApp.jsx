@@ -17,7 +17,7 @@ const ChatApp = () => {
         
   
         <div className="relative lg:absolute w-full lg:w-auto">
-          <div className="bg-fuchsia-600 w-full lg:w-[500px] xl:w-[600px] h-[1100px] sm:h-[1000px] lg:h-[800px] xl:h-[950px] 
+          <div className="bg-fuchsia-600 w-full lg:w-[500px] xl:w-[600px] h-[1000px] sm:h-[1100px] lg:h-[800px] xl:h-[950px] 
                         rounded-b-full lg:rounded-b-full lg:rounded-bl-none
                         -mt-20 lg:-mt-40 lg:-ml-20 xl:-ml-32
                         flex items-center justify-center lg:justify-start">
